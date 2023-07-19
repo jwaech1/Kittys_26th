@@ -16,13 +16,13 @@
 
 body {
     text-align: center;
-    margin: 5% 5%;
+    margin: 10%;
 }
 
   
 .wrapper {
     text-align: center;
-    
+    margin: 2%;
     display: grid;
     grid-template-columns: 57.6% 32.4%;
     grid-gap: 1%;
