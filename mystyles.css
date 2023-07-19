@@ -16,16 +16,16 @@
 
 body {
     text-align: center;
+    margin: 5% 5%;
 }
 
-body {
-    margin: 40px;
-  }
   
 .wrapper {
+    text-align: center;
+    
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-gap: 10px;
+    grid-template-columns: 57.6% 32.4%;
+    grid-gap: 1%;
     background-color: #fff;
     color: #444;
   }
