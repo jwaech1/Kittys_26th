@@ -12,6 +12,36 @@ body {
 
 }
 
+.grid3 {
+  justify-content: center;
+  align-items: center;
+  justify-items: left;
+  margin: 0%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 0%;
+  background-color: #fff;
+  color: #444;
+}
+
+.scrollmenu {
+  background-color: rgb(41, 41, 41);;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
 .grid2 {
     justify-content: center;
     margin: 0%;
@@ -31,6 +61,7 @@ body {
     grid-gap: 1%;
     background-color: #fff;
     color: #444;
+ 
   }
 
 .wrapper2 {
@@ -46,20 +77,20 @@ body {
     font-weight: bold;
 }
 
-.scrollmenu {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
+.wrapper3 {
+    justify-content: left;
+    text-align:left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 25% 10% 70%;
+  }
+
+.oval { 
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
 }
 
-.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.scrollmenu a:hover {
-  background-color: #777;
-}
