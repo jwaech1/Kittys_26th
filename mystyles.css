@@ -84,7 +84,7 @@ body {
     margin-right: 10%;
     margin-top: 3%;
     display: grid;
-    grid-template-columns: 25% 10% 70%;
+    grid-template-columns: 15% 5% 80%;
   }
 
 .oval { 
